@@ -1,5 +1,5 @@
-// Enable button after user clicked a checkbox
-// jQuery 
+// How to enable button after user clicked a checkbox
+// in jQuery 
 $(document).ready(function(){
     $('button').prop('disabled', true);
     $('input[type="checkbox"]').click(function() {
